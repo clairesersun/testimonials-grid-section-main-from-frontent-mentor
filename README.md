@@ -37,7 +37,7 @@ Users should be able to:
 - Created a repository and copied challenge files
 - Created HTML Structure
 - Built initial CSS Styling
-- Utilized a live port and Chrome's inspect tool to style mobile screen-size
+- Utilized a live port and Chrome's inspect tool to style for mobile screen-sizes
 - Switched view to desktop and created a media query to style the grid layout
 - Checked for inconsistencies and errors
 
