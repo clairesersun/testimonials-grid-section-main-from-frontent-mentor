@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/clairesersun/testimonials-grid-section-main-from-frontent-mentor](https://github.com/clairesersun/testimonials-grid-section-main-from-frontent-mentor)
+- Live Site URL: [https://clairesersun.github.io/testimonials-grid-section-main-from-frontent-mentor/](https://clairesersun.github.io/testimonials-grid-section-main-from-frontent-mentor/)
 
 ## My process
 
