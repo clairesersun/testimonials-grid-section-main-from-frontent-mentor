@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 81%);
+  width: 100%;
+}
+
+section {
+  border-radius: 10px;
+  margin: 15px;
+  padding: 30px;
+  box-shadow: 5px 5px 10px hsl(217, 19%, 35%, 50%);
+}
+.one {
+  background: hsl(263, 55%, 52%) url("images/bg-pattern-quotation.svg") right
+    10% top;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+.two {
+  background-color: hsl(217, 19%, 35%);
+}
+.three {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+.four {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+
+.five {
+  background-color: hsl(219, 29%, 14%);
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+p.one > span,
+p.two > span,
+p.three > span,
+p.five > span {
+  background-color: hsl(0, 0%, 100%, 50%);
+  padding: 10px;
+  border-radius: 100%;
+}
+
+p.four > span {
+  background-color: hsl(263, 55%, 52%, 50%);
+  border: 10px;
+  border-radius: 100%;
+}
+
+p.name {
+  font-size: 15px;
+}
+
+.verified {
+  font-weight: 500;
+}
+
+.one > .verified,
+.two > .verified,
+.five > .verified {
+  color: hsl(0, 0%, 100%, 50%);
+}
+
+.three > .verified,
+.four > .verified {
+  color: hsl(219, 29%, 14%, 50%);
+}
+
+section > p.highlight {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.review {
+  font-weight: 500;
+}
+
+.one > .review,
+.two > .review,
+.five > .review {
+  color: hsl(0, 0%, 100%, 70%);
+}
+
+.three > .review,
+.four > .review {
+  color: hsl(219, 29%, 14%, 70%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 50%);
+}
+
+.attribution a:hover {
+  color: hsl(228, 45%, 25%);
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 376px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding: 10%;
+  }
+  .one {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background: hsl(263, 55%, 52%) url("images/bg-pattern-quotation.svg") right
+      20% top;
+    background-repeat: no-repeat;
+    background-size: 18%;
+  }
+
+  .two {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+  .four {
+    grid-column: span 1;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: span 2;
+    grid-row: 2 / span 1;
+  }
+}
